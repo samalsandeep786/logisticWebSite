@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Montserrat:wght@100;400;900&family=Sacramento&family=Ubuntu:wght@400;700&display=swap');
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+body{
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    color: rgb(242, 240, 240);
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    width: 100%;
+    /* background-color: beige; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding-bottom: 1px;
+}
+#heroId{
+    background-image: url("/images/contact.jpg");
+    /* border: 2px solid red; */
+    background-size: cover;
+
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    background-image: linear-gradient(180deg, #000, transparent);
+}
+#logo{
+    width: 20vw;
+    border-radius: 1.5rem;
+}
+nav{
+    width: 100%;
+}
+.nav-link:hover{
+    border-bottom: 2px solid #015595;
+    color: #015595;
+}
+.nav-link{
+    float: right;
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bolder;
+}
+.backVideo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    width: 100%;
+    height: 80vh;
+    object-fit: cover; 
+    filter: brightness(75%);
+}
+h1{
+    font-size: 78px;
+    font-weight: 700;
+}
+.heading{
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer{
+    /* position: fixed; */
+    width: 100%;
+    background-color: black;
+}
+.innerContent{
+    color: rgb(178, 178, 178);
+    padding-right: 25%;
+}
+.outerContent{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bolder;
+}
+.innerContent a{
+    text-decoration: none;
+    color: rgb(178, 178, 178);
+}
+.innerContent a:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.explore:hover{
+    color: white;
+    border-color: #015595;
+    background-color: #015595;
+}
+
+.brand-img{
+    width: 10%;
+    margin: auto;
+}
+
+.carousel-inner h2{
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Montserrat", sans-serif;
+}
+
+#about{
+    background-color: white;
+    color: #000;
+    text-align: justify;
+}
+#about ul{
+    list-style: square;
+}
+.explore-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .explore-more-btn{
+    color: #015595;
+    border-color: #015595;
+} */
+.explore-more-btn:hover{
+    color: white;
+    border-color: #015595;
+    background-color: #015595;
+}
+
+@media screen and (max-width: 479px)
+{
+h1{
+    /* margin-bottom: 8px; */
+    font-size: 28px;
+}
+h2{
+    font-size: 20px;
+    margin: 0 10vw;
+}
+
+.brand-img{
+    width: 15%;
+    margin: auto;
+}
+#contact-box{
+    margin: 1rem 0!important;
+}
+.explore-more{
+    margin-top: 50px;
+}
+#logo{
+    width: 35vw;
+}
+.contact-methods{
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+    /* font-size: 15px; */
+}
+.contact-methods-btn{
+    font-size: 15px;
+}
+.contacts{
+    margin-top: 0.5rem!important;
+    margin-bottom: 0.5rem!important;
+}
+}
